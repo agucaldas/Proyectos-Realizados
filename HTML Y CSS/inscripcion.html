@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>OBLIGATORIO</title>        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Descripcion de la pagina">
+        <meta name="keywords" content="Palabras, clave, separadas, por, coma">
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body>
+        <div>
+           <nav class="menuFijo">
+            <ul>
+                <li><a href="index.html"><strong>Recetas</strong></a></li>
+                <li><a><strong>Recomendaciones</strong></a></li>
+                 <li><a><strong>Videos de Cocina</strong></a></li>
+                 <li><a><strong>Tips</strong></a></li>
+                 <li><a><strong>Concurso</strong></a></li>
+            </ul>
+        </nav>
+        </div>
+        
+       <main id="contenidoInscripcion" >
+           <h2 id="arriba">Formulario de inscripción a Concurso</h2>
+           <br>
+           <p>Inscríbete para el primer concurso de videos de cocina del Uruguay.</p>
+            <p>Todos los campos son obligatorios.</p>
+           <div>
+        <form>
+            <fieldset>
+                <legend>Datos Personales</legend>
+            <label for="nombre">Nombre: </label>
+            <input class="inputText" type="text" id="nombre" required>
+            <br>
+            <label for="direccion">Dirección:</label>
+            <input class="inputText" type="text" id="direccion" required>
+            <br>
+            <label for="telefono">Teléfono:</label>
+            <input class="inputText" type="number" id="telefono" required>
+            <br>
+            <label for="email">Email:</label>
+            <input class="inputText" type="email" id="email" required>
+            <br>
+            <p>Sexo</p>
+            <label for="sexo">Hombre</label>
+            <input type="radio" id="sexo" name="sexo" required>
+            <label for="sexo1">Mujer</label>
+            <input type="radio" id="sexo1" name="sexo" required>
+            <br>
+            </fieldset>
+        <fieldset>
+            <legend>Concurso</legend>
+                <label for="dificultad">Dificultad</label>
+                <select id="dificultad" required class="inputText">
+                 <option value="">Baja</option>
+                 <option value="">Media</option>
+                 <option value="">Alta</option>
+             </select>
+                <br>
+             <label for="tipodeplato">Opciones de tipo de plato a preparar</label>
+             <select id="tipodeplato" required class="inputText">
+                 <option value="">Carne</option>
+                 <option value="">Postre</option>
+                 <option value="">Ensalada</option>
+                 <option value="">Otros</option>
+             </select>
+                <br>
+                <label for="textArea">Resumen de la preparación</label><br>
+                <textarea class="inputText" cols="30" rows="10" id="textArea" required></textarea>
+             </fieldset>
+            <br>
+             <p>* "Constituyo el domicilio electrónico que registro en este formulario. Además autorizo al servicio a realizar las 
+                 comunicaciones y notificaciones personales de los actos indicados en el cap. III del Instructivo de Notificaciones
+                  Personales electrónicas al domicilio electrónico constituído. Me obligo a comunicar, en la oficina donde fue constituído 
+                  este dato, cualquier dato en el domicilio electrónico que denuncio en el presente formulario. Asimismo asumo la 
+                  responsabilidad respecto al uso exclusivamente personal e intransferible de la cuenta de correo electrónico constituida
+                   como domicilio electrónico".</p>
+                   <br>
+                   <label for="acepto">Acepto</label>
+                  <input type="checkbox" id="acepto" required>
+                  
+                <br>  
+            <input class="button" type="submit" value="Enviar">
+            <input class="button"  type="reset" value="Borrar todo">
+        </form>
+</div>
+        </main>
+        <footer id="footerGeneral">
+        <div id="divRedesSociales">
+            
+            <a href=""><img class="redessociales" src="img/fb.jpg" alt=""></a>
+             <a href=""><img class="redessociales" src="img/tw.jpg" alt=""></a>
+             <a href=""><img class="redessociales" src="img/insta.jpg" alt=""></a>
+              <a href=""><img class="redessociales" src="img/pinterest.jpg" alt=""></a>
+               <a href=""><img class="redessociales" src="img/youtube.jpg" alt=""></a>
+            
+        </div>
+            <nav class="menuAbajo">
+                <ul>
+                    <li>Contacto</li>                
+                    <li>Anúnciate</li>
+                    <li>RSS</li>
+                    <li>SiteMap</li>                    
+                </ul>
+                <a href="#arriba"><img  id="flechita" src="img/flechita.jpg" alt=""></a>
+            </nav> 
+            <iframe id="footerMap" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6545.006349604804!2d-56.12198708633599!3d-34.893820184540076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2suy!4v1502044721284" width="400" height="300" style="border:0" allowfullscreen></iframe>
+            
+        <hr class="clear">
+        <div><p  class="copyright">Políticas de privacidad elgourmet®© 2010-2017</p></div>
+   </footer>
+
+
+    </body>
+</html>

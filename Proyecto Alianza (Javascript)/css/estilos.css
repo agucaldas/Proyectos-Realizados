@@ -1,0 +1,32 @@
+h1{
+    color: #0897D9;
+}
+tr:hover{
+    background-color: #1460A7;
+    color: white;
+}
+.btn-primary{
+    background-color: #0897D9;
+
+
+}
+.btn-primary:hover{
+    background-color: #15100D;
+    color: #0897D9;
+}
+nav ul li a{
+    background-color: #252273 !important;
+    color: white !important;
+}
+nav ul li a:hover{
+    background-color: #1460A7!important;
+    color: white !important;
+}
+.pagination li a:focus{
+    background-color: #1460A7!important;
+    color: white !important;
+}
+.navbar{
+
+    background-color: #15100D;
+}

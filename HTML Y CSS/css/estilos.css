@@ -1,0 +1,210 @@
+@charset "UTF-8";
+/* Defino font para a */
+a, h1,h2,h3,span,p,label,legend{
+    font-family: Verdana;
+}
+
+*{margin:0; padding:0;}
+
+/* Estructura de bloque*/
+footer,aside,section{
+    display: block;
+}
+body{
+     background-color: beige;
+}
+
+.fondoFijo{
+    background-image: url("../img/carnes.jpg");
+    min-height: 750px; 
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+/*Le damos color de fondo, le definimos width y establecemos que quede fijo el nav, Menu*/
+.menuFijo{
+    min-height: 3%;
+    position: fixed;
+    background-color:#01DF01;
+    width: 100%;
+    text-align: center;  
+    top: 0;  
+    opacity: 0.9;
+}
+ /* Estilos del titulo de la pagina*/
+.nombrePagina{
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    padding-top: 20%;
+}
+/*Un li alado del otro, sacamos estilos y centramos*/
+.menuFijo ul li{
+    display: inline-block;
+    padding:  2% 5% 2% 5%;
+    margin: 0 auto;
+    list-style: none;
+}
+/*Sacamos el subrayado a la etiqueta a y establecemos color de letra blanco*/
+.menuFijo ul li a{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    display: block;    
+}
+/*Al hacer accion hover establecemos color de letra negro*/
+.menuFijo ul li a:hover{
+    color: black;
+}
+/*Al hacer accion hover establecemos color de fondo #81F781 */
+.menuFijo li:hover{
+    background-color: #81F781    
+}
+/*Al hacer accion hover establecemos color de letra negro*/
+#contenidoScroll{
+	max-width: 100%;	
+}
+img{
+    max-width: 100%;  
+     box-shadow: 2px 4px 25px 4px black;  
+}
+figure{
+    margin: 3% 0;   
+}
+section header{
+    text-align: center;
+}
+article h2{
+    text-align: center;
+}
+article p{
+    margin-left: 13%;
+    padding-right: 13%;
+}
+article ul{
+    margin-left: 13%;
+    padding-right: 13%;
+}
+section{
+    margin-top: 3%;
+    margin-bottom: 3%;   
+}
+#section1,#section3,#section5,#section2,#section4{
+    float: left;
+    width: 58%;
+}
+#section2,#section4{
+    float: right;
+    width: 58%;
+}
+#aside1,#aside3,#aside5{
+    float: left;
+    width: 40%;
+}
+#aside2,#aside4{
+    float: right;
+    width: 40%;
+}
+#subir{
+    position: fixed;
+    right: 1%;
+    bottom: 1%;
+}
+/* FOOTER */
+.copyright{
+    text-align: center;
+}
+#footerGeneral{
+    min-height: 20%;
+    background-color: white;   
+}
+.redessociales{
+width: 50px;
+margin: 2% 3% 0 3%;
+}
+#divRedesSociales{
+    float: left;
+    width: 5%;
+}
+.menuAbajo{
+    width: 65%;
+    float: left;
+    margin-top: 5%;
+}
+.menuAbajo ul li{
+    display: inline-block;
+    padding:  2% 5% 2% 5%;
+    margin: 0 3%; 
+    text-align: center;
+    border: 1px solid black;
+}
+.menuAbajo ul li:hover{
+    background-color: #01DF01; 
+}
+#flechita{
+    display: inline-block;
+    width: 4%;
+    min-height: 5%;
+    border: 2px solid black;
+    border-radius: 10px;
+    opacity: 0.7;
+}
+#footerMap{
+    width: 29%;
+}
+.clear{
+    clear: both;
+}
+/*Pagina inscripcion*/
+#contenidoInscripcion{
+    margin: 6% 22% 2% 22%;
+}
+fieldset{
+    padding: 10%;
+    border: 2px solid grey;
+}
+legend{
+    color: coral;
+    font-size: 20px;
+}
+#textArea{
+    resize: none;
+}
+.inputText{
+    min-height: 4%;
+    width: 65%;
+    border: 2px solid green;
+}
+.inputText:hover{
+    border: 2px solid greenyellow;
+}
+.inputText:focus{
+    border: 2px solid greenyellow;
+}
+.button{
+    min-height: 4%;
+    width: 30%;
+    background-color: goldenrod;
+    border: 2px solid gold;
+    color: white;
+}
+#articleSection3{
+    margin-top: 5%;
+
+    column-count: 2;
+    -webkit-column-count: 2;
+    -moz-column-count:2;
+    -o-column-count: 2;
+    
+    
+    column-gap: 20px;
+    -webkit-column-gap:20px;
+    -moz-column-gap: 20px;
+    -o-column-gap: 20px;
+    
+    
+    column-rule: 2px solid #01DF01;
+    -webkit-column-rule: 2px solid #01DF01;
+    -moz-column-rule: 2px solid #01DF01;
+    -o-column-rule: 2px solid #01DF01;
+}
